@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
+import { theme } from './theme';
+import { ThemeProvider } from 'styled-components';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      Barev
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">Barev</div>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
