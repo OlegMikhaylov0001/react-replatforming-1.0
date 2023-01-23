@@ -1,3 +1,3 @@
-import HowItWorksPage from "./HowItWorksPage";
+import HowItWorksPage from './HowItWorksPage';
 
 export default HowItWorksPage;

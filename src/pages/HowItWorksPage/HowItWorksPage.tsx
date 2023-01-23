@@ -1,13 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 function HowItWorksPage() {
   return (
     <>
-        <div>How It Works</div>
-        <div>Hi, Stranger!</div>
+      <div>How It Works</div>
+      <div>Hi, Stranger!</div>
     </>
-    
-  )
+  );
 }
 
-export default HowItWorksPage
+export default HowItWorksPage;
